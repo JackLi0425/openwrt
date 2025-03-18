@@ -706,7 +706,7 @@ endef
 TARGET_DEVICES += tplink_tl-wdr6500-v2
 
 define Device/tplink_tl-wdr7500-v3
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := qca9558
   DEVICE_MODEL := TL-WDR7500
   DEVICE_VARIANT := v3
